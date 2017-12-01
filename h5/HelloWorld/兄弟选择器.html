@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>兄弟选择器</title>
+		<style type="text/css">
+			p{
+				background-color: yellow;
+			}
+			/*
+			 * 第一个弟弟
+			 */
+			span+p{
+				font-size: 40px;
+			}
+			/*
+			 *所有的弟弟 
+			 */
+			div~p{
+				font-size: 50px;
+			}
+			/*
+			 * 否定括号中的选择器
+			 */
+			p:not(#p1):hover{
+				color: red;
+			}
+		</style>
+	</head>
+
+	<body>
+		<p id="p1">锄禾日当午，汗滴禾下土。</p>
+		<span>我是一个span</span>
+		<p>锄禾日当午，汗滴禾下土。</p>
+		<p>锄禾日当午，汗滴禾下土。</p>
+		<div>
+			我是一个div
+		</div>
+		<a href="#">我是一个a标签</a>
+		<p>锄禾日当午，汗滴禾下土。</p>
+		<p>锄禾日当午，汗滴禾下土。</p>
+		<p>锄禾日当午，汗滴禾下土。</p>
+	</body>
+
+</html>

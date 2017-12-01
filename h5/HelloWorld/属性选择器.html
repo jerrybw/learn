@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>属性选择器</title>
+
+		<style type="text/css">
+			/* 
+			 * 属性选择器 
+			*/
+			/* 
+			 * 具有某个属性 
+			*/
+			
+			p[title] {
+				font-size: 20px;
+			}
+			/* 
+			 * 具有某个属性 并且属性值等于某个值
+			*/
+			
+			p[title="悯农"] {
+				color: red;
+			}
+			/* 
+			 * 具有某个属性 并且属性值以某个值开头
+			*/
+			
+			p[title^="ab"] {
+				background-color: yellow;
+			}
+			/* 
+			 * 具有某个属性 并且属性值以某个值结尾
+			*/
+			
+			p[title$="ef"] {
+				font-style: oblique;//斜体
+			}
+			
+			/* 
+			 * 具有某个属性 并且属性值以某个值结尾
+			*/
+			
+			p[title*="bc"] {
+				font-size: 40px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<center>
+			<p>锄禾日当午，汗滴禾下土</p>
+			<p title="">锄禾日当午，汗滴禾下土</p>
+			<p title="悯农">锄禾日当午，汗滴禾下土</p>
+			<p title="abcd">锄禾日当午，汗滴禾下土</p>
+			<p title="bc">锄禾日当午，汗滴禾下土</p>
+			<p title="abcdef">锄禾日当午，汗滴禾下土</p>
+			<p title="def">锄禾日当午，汗滴禾下土</p>
+		</center>
+	</body>
+
+</html>
