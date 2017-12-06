@@ -1,0 +1,21 @@
+package com.jerry.socket;
+
+import java.io.IOException;
+import java.net.Socket;
+import java.net.UnknownHostException;
+import java.util.Scanner;
+
+public class Client {
+	public static void main(String[] args) throws UnknownHostException, IOException {
+		Scanner scanner = new Scanner(System.in);
+		SocketWrapper socketWrapper = new SocketWrapper(new Socket("localhost", 1234));
+		System.out.println("已经连接服务器，现在可以输入请求信息");
+		socketWrapper.writeLine(scanner.nextLine());
+		String receiveMsg = socketWrapper.readLine();
+		while (!"close".equals(receiveMsg)) {
+			System.out.println("服务器返回：" + receiveMsg);
+			socketWrapper.writeLine(scanner.nextLine());
+			receiveMsg = socketWrapper.readLine();
+		}
+	}
+}

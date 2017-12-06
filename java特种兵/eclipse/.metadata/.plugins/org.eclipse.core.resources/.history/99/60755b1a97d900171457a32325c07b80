@@ -1,0 +1,11 @@
+package com.jerry.socket;
+
+import java.net.Socket;
+import java.util.Scanner;
+
+public class Client {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		SocketWrapper socketWrapper = new SocketWrapper(new Socket("localhost", 1234));
+	}
+}

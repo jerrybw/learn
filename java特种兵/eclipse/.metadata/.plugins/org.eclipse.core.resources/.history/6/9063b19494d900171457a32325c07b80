@@ -1,0 +1,23 @@
+package com.jerry.socket;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.Socket;
+
+public class SocketWrapper {
+	private Socket socket;
+	private InputStream inputStream;
+	private BufferedReader bufferedReader;
+	private BufferedWriter bufferedWriter;
+	
+	public SocketWrapper(Socket socket) throws IOException{
+		this.socket = socket;
+		this.inputStream = socket.getInputStream();
+		this.bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "GBK"));
+		this.bufferedWriter = new BufferedWriter(out, sz)
+	}
+}

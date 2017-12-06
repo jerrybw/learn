@@ -1,0 +1,30 @@
+package com.jerry.socket;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+
+public class Server {
+	
+	public static void main(String[] args) throws IOException {
+		ServerSocket serverSocket = new ServerSocket(1234);
+		System.out.println("端口已经打开，为1234");
+		SocketWrapper socketWrapper = null;
+		try {
+			socketWrapper = new SocketWrapper(serverSocket.accept());
+			String line = socketWrapper.readLine();
+			while (!"bye!".equals(line)) {
+				System.out.println("客户端传入："+line);
+				socketWrapper.writeLine("我接收到你的消息："+line);
+				System.out.println("111");
+				line = socketWrapper.readLine();
+			}
+			socketWrapper.writeLine("close");
+		}finally {
+			if(socketWrapper != null) {
+				socketWrapper.close();
+			}
+			serverSocket.close();
+		}
+	}
+
+}
