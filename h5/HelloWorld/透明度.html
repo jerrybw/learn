@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>透明度</title>
+		<style type="text/css">
+			.box1 {
+				width: 200px;
+				height: 200px;
+				background-color: red;
+			}
+			.box2 {
+				width: 200px;
+				height: 200px;
+				background-color: yellow;
+				position: relative;
+				left: 100px;
+				bottom: 100px;
+				opacity: 0.5;
+				filter: alpha(opacity=50);
+			}
+			.box3 {
+				width: 200px;
+				height: 200px;
+				background-color: blue;
+				position: absolute;
+				left: 200px;
+				top: 200px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="box1"></div>
+		<div class="box2"></div>
+		<div class="box3"></div>
+	</body>
+
+</html>
