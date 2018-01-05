@@ -10,7 +10,7 @@ public class FactoryMethodPattern {
 
     public static void main(String[] args) throws Exception {
         ImgReaderFactory factory = getFactory();
-        factory.readImg(factory.getImgReader());
+        factory.readImg();
     }
 
     public static ImgReaderFactory getFactory() throws Exception{
@@ -43,7 +43,8 @@ abstract class ImgReaderFactory{
 
     public abstract ImgReader getImgReader();
 
-    public void readImg(ImgReader imgReader){
+    public void readImg(){
+        ImgReader imgReader = this.getImgReader();
         imgReader.readImg();
     }
 }
