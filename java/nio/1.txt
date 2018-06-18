@@ -1,0 +1,23 @@
+一、作用：
+
+         随机流（RandomAccessFile）不属于IO流，支持对文件的读取和写入随机访问。
+
+二、随机访问文件原理：
+
+         首先把随机访问的文件对象看作存储在文件系统中的一个大型 byte 数组，然后通过指向该 byte 数组的光标或索引（即：文件指针 FilePointer）在该数组任意位置读取或写入任意数据。
+
+三、相关方法说明：
+
+       1、对象声明：RandomAccessFile raf = newRandomAccessFile(File file, String mode);
+
+            其中参数 mode 的值可选 "r"：可读，"w" ：可写，"rw"：可读性；
+
+       2、获取当前文件指针位置：int RandowAccessFile.getFilePointer();
+
+       3、改变文件指针位置（相对位置、绝对位置）：
+
+            1> 绝对位置：RandowAccessFile.seek(int index);
+
+            2> 相对位置：RandowAccessFile.skipByte(int step);         相对当前位置
+
+       4、给写入文件预留空间：RandowAccessFile.setLength(long len);
