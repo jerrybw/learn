@@ -1,5 +1,6 @@
 package com.jerry.crud.test;
 
+import java.util.List;
 import java.util.Random;
 import java.util.UUID;
 
@@ -13,6 +14,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import com.jerry.crud.bean.Department;
 import com.jerry.crud.bean.DepartmentExample;
 import com.jerry.crud.bean.Employee;
+import com.jerry.crud.bean.EmployeeExample;
 import com.jerry.crud.dao.DepartmentMapper;
 import com.jerry.crud.dao.EmployeeMapper;
 
@@ -46,9 +48,27 @@ public class MapperTest {
 		Random random = new Random();
 		for(int i = 0;i < 1000;i++) {
 			String name = UUID.randomUUID().toString().substring(0,5)+i;
-			mapper.insertSelective(new Employee(null,name,(random.nextInt(3) == 0)? "M":"F",name+"@163.com",random.nextInt(2)+2));
+			mapper.insertSelective(new Employee(null,name,(random.nextInt(3) == 0)? "M":"F",name+"@163.com",random.nextInt(3)+2));
 		}
 		System.out.println("成功！");
 	}
 	
+	@Test
+	public void testSelect() {
+		DepartmentExample departmentExample = new DepartmentExample();
+		departmentExample.createCriteria().andDeptNameLike("%发%");
+		List<Department> list = departmentMapper.selectByExample(departmentExample);
+		for (Department department : list) {
+			System.out.println(department.getDeptId() + ":"+department.getDeptName());
+			department.setDeptName("研发部");
+			departmentMapper.updateByPrimaryKeySelective(department);
+		}
+	}
+	
+	@Test
+	public void delete() {
+		EmployeeExample employeeExample = new EmployeeExample();
+		employeeExample.createCriteria().andEmpNameLike("%李四%");
+		employeeMapper.deleteByExample(employeeExample);
+	}
 }
