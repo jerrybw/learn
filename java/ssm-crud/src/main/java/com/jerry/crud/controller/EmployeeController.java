@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -80,7 +81,11 @@ public class EmployeeController {
 		return Msg.success();
 	}
 
-	
+	/**
+	 * 验证员工姓名是否可用
+	 * @param empName
+	 * @return
+	 */
 	@ResponseBody
 	@RequestMapping(value="checkUserName",method=RequestMethod.POST)
 	public Object checkUserName(String empName) {
@@ -90,6 +95,49 @@ public class EmployeeController {
 		}else {
 			return Msg.faild().add("validateRes", "员工姓名已存在");
 		}
+	}
+	
+	/**
+	 * 根据empId获取员工数据
+	 * @param id
+	 * @return
+	 */
+	@ResponseBody
+	@RequestMapping(value="emp/{id}",method=RequestMethod.GET)
+	public Object getEmp(@PathVariable("id")Integer id) {
+		Employee employee = employeeService.getEmp(id);
+		return Msg.success().add("emp", employee);
+	}
+	
+	
+	/**
+	 * 根据员工id修改员工
+	 * @param employee
+	 * @return
+	 */
+	@ResponseBody
+	@RequestMapping(value="emp/{empId}",method=RequestMethod.PUT)
+	public Object updateEmp(Employee employee) {
+		boolean success = false;
+		try {
+			success = employeeService.updateEmp(employee);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return success?Msg.success():Msg.faild();
+	}
+	
+	
+	@ResponseBody
+	@RequestMapping(value="emp/{ids}",method=RequestMethod.DELETE)
+	public Object deleteEmp(@PathVariable("ids")String ids) {
+		boolean success = false;
+		try {
+			success = employeeService.deleteEmp(ids);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return success?Msg.success():Msg.faild();
 	}
 
 }

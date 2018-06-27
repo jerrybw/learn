@@ -1,5 +1,7 @@
 package com.jerry.crud.service;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -64,6 +66,47 @@ public class EmployeeService {
 		EmployeeExample employeeExample = new EmployeeExample();
 		employeeExample.createCriteria().andEmpNameEqualTo(empName);
 		return employeeMapper.countByExample(employeeExample) == 0L;
+	}
+
+	/**
+	 * @param id
+	 * @return
+	 */
+	public Employee getEmp(Integer id) {
+		// TODO Auto-generated method stub
+		return employeeMapper.selectByPrimaryKey(id);
+	}
+
+	/**
+	 * @param employee
+	 * @return
+	 */
+	public boolean updateEmp(Employee employee) {
+		int num =employeeMapper.updateByPrimaryKeySelective(employee);
+//		if(num != 1) {
+//			throw new RuntimeException("修改失败，修改数据条数为"+num);
+//		}
+		return true;
+	}
+
+	/**
+	 * @param id
+	 * @return
+	 */
+	public boolean deleteEmp(String ids) {
+		if(!ids.contains("-")) {
+			employeeMapper.deleteByPrimaryKey(Integer.parseInt(ids));
+		}else {
+			EmployeeExample example = new EmployeeExample();
+			List<Integer> list = new ArrayList<>();
+			String[] split = ids.split("-");
+			for (String string : split) {
+				list.add(Integer.parseInt(string));
+			}
+			example.createCriteria().andEmpIdIn(list);
+			employeeMapper.deleteByExample(example);
+		}
+		return true;
 	}
 	
 
