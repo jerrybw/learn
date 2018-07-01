@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5924ba63-3930-458e-8ebc-67877d549390" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/shiro-test/target/" />
+    <ignored path="$PROJECT_DIR$/shiro-spring/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MyRealm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/MyRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyRealmTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/test/MyRealmTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestShiro.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/test/TestShiro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-spring/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-spring/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shiro-spring/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IniRealm.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/realm/text/IniRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-test/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jdbcrealm</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro-test/src/main/resources/log4j.properties" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8e97beef-4cb4-46a6-98ac-8788cf3cfa9a/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/59013b7b-9800-4d3f-af2e-9d51ffce00ad/console.sql" />
+        <option value="$PROJECT_DIR$/shiro-test/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/test/JDBCRealmTest.java" />
+        <option value="$PROJECT_DIR$/shiro-test/src/main/resources/shiro.ini" />
+        <option value="$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/test/IniRealmTest.java" />
+        <option value="$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/MyRealm.java" />
+        <option value="$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/test/MyRealmTest.java" />
+        <option value="$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/test/TestShiro.java" />
+        <option value="$PROJECT_DIR$/shiro-spring/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shiro-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shiro-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-108" />
+    <option name="y" value="27" />
+    <option name="width" value="1620" />
+    <option name="height" value="920" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shiro-demo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro-demo1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro-demo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro-demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro-demo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro-demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro-demo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro-demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="pom.xml&#9;FILE&#9;file://D:/gitRep/study/learn/java/shiro-demo1/shiro-test/pom.xml&#10;DATA&#9;ACTION&#9;ActivateDatabaseToolWindow" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nio" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.mytomcat">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="IniRealmTest.iniRealmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shiro.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shiro.test" />
+      <option name="MAIN_CLASS_NAME" value="com.shiro.test.IniRealmTest" />
+      <option name="METHOD_NAME" value="iniRealmTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JDBCRealmTest.testJDBCRealm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shiro.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shiro.test" />
+      <option name="MAIN_CLASS_NAME" value="com.shiro.test.JDBCRealmTest" />
+      <option name="METHOD_NAME" value="testJDBCRealm" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MyRealmTest.testMyRealm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shiro.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shiro.test" />
+      <option name="MAIN_CLASS_NAME" value="com.shiro.test.MyRealmTest" />
+      <option name="METHOD_NAME" value="testMyRealm" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestShiro.testAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shiro.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shiro.test" />
+      <option name="MAIN_CLASS_NAME" value="com.shiro.test.TestShiro" />
+      <option name="METHOD_NAME" value="testAuth" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="mytomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.29" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_shiro-demo1" />
+        <option name="HTTP_PORT" value="80" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58138" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.mytomcat" />
+      <item itemvalue="JUnit.TestShiro.testAuth" />
+      <item itemvalue="JUnit.JDBCRealmTest.testJDBCRealm" />
+      <item itemvalue="JUnit.IniRealmTest.iniRealmTest" />
+      <item itemvalue="JUnit.MyRealmTest.testMyRealm" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestShiro.testAuth" />
+        <item itemvalue="JUnit.MyRealmTest.testMyRealm" />
+        <item itemvalue="JUnit.IniRealmTest.iniRealmTest" />
+        <item itemvalue="JUnit.JDBCRealmTest.testJDBCRealm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5924ba63-3930-458e-8ebc-67877d549390" name="Default" comment="" />
+      <created>1530108806886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530108806886</updated>
+      <workItem from="1530108811598" duration="3705000" />
+      <workItem from="1530148083571" duration="3030000" />
+      <workItem from="1530151154152" duration="3380000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="JDBCRealmTest_testJDBCRealm - 2018.06.27 at 23h 14m 19s.xml">
+      <configuration name="JDBCRealmTest.testJDBCRealm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCRealmTest_testJDBCRealm - 2018.06.27 at 23h 14m 52s.xml">
+      <configuration name="JDBCRealmTest.testJDBCRealm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCRealmTest_testJDBCRealm - 2018.06.27 at 23h 15m 17s.xml">
+      <configuration name="JDBCRealmTest.testJDBCRealm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCRealmTest_testJDBCRealm - 2018.06.28 at 09h 11m 15s.xml">
+      <configuration name="JDBCRealmTest.testJDBCRealm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IniRealmTest_iniRealmTest - 2018.06.28 at 09h 25m 45s.xml">
+      <configuration name="IniRealmTest.iniRealmTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRealmTest_testMyRealm - 2018.06.28 at 09h 40m 19s.xml">
+      <configuration name="MyRealmTest.testMyRealm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRealmTest_testMyRealm - 2018.06.28 at 09h 40m 35s.xml">
+      <configuration name="MyRealmTest.testMyRealm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRealmTest_testMyRealm - 2018.06.28 at 09h 41m 00s.xml">
+      <configuration name="MyRealmTest.testMyRealm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShiro_testAuth - 2018.06.28 at 09h 42m 00s.xml">
+      <configuration name="TestShiro.testAuth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShiro_testAuth - 2018.06.28 at 09h 42m 26s.xml">
+      <configuration name="TestShiro.testAuth" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10115000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32891247" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32969153" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.17866324" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39920425" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32891247" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891247" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891247" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
+      <window_info anchor="bottom" id="Problems" order="7" />
+      <window_info id="Web" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32891247" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/MyRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/test/MyRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/test/TestShiro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://59013b7b-9800-4d3f-af2e-9d51ffce00ad/schema/test/table/user_roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/realm/jdbc/JdbcRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/test/TestShiro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://59013b7b-9800-4d3f-af2e-9d51ffce00ad/schema/test/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/test/JDBCRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8e97beef-4cb4-46a6-98ac-8788cf3cfa9a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.jerry.study:shiro-test:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.jerry.study:shiro-test:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="816.625" y="465.0">com.jerry.study:shiro-test:1.0-SNAPSHOT</node>
+            <node x="323.5" y="364.0">org.apache.shiro:shiro-core:jar:1.4.0</node>
+            <node x="273.9447004608297" y="81.0">org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0</node>
+            <node x="280.4447004608297" y="0.0">org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="320.0" y="182.0">org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-cache:jar:1.4.0</node>
+            <node x="0.0" y="273.0">org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-crypto-hash:jar:1.4.0</node>
+            <node x="79.125" y="182.0">org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-crypto-hash:jar:1.4.0/org.apache.shiro:shiro-crypto-core:jar:1.4.0</node>
+            <node x="155.0" y="273.0">org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-crypto-cipher:jar:1.4.0</node>
+            <node x="439.0" y="182.0">org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-core:jar:1.4.0</node>
+            <node x="637.0472350230416" y="273.0">org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0</node>
+            <node x="808.0" y="182.0">org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0/commons-beanutils:commons-beanutils:jar:1.9.3</node>
+            <node x="803.5" y="81.0">org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0/commons-beanutils:commons-beanutils:jar:1.9.3/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="592.0" y="182.0">org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="691.0" y="182.0">org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-event:jar:1.4.0</node>
+            <node x="1018.1472350230415" y="364.0">junit:junit:jar:4.12</node>
+            <node x="988.1472350230415" y="273.0">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="907.1472350230415" y="273.0">log4j:log4j:jar:1.2.17</node>
+            <node x="809.1472350230415" y="273.0">org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="844.9571428571429" y="364.0">org.slf4j:slf4j-log4j12:jar:1.7.25</node>
+            <node x="1094.1472350230415" y="364.0">mysql:mysql-connector-java:jar:6.0.6</node>
+            <node x="240.5" y="364.0">com.alibaba:druid:jar:1.1.10</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.25" target="log4j:log4j:jar:1.2.17">
+              <point x="25.75" y="-15.5" />
+              <point x="-15.25" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-crypto-hash:jar:1.4.0/org.apache.shiro:shiro-crypto-core:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0">
+              <point x="0.0" y="-15.5" />
+              <point x="146.125" y="152.0" />
+              <point x="291.0072004608297" y="152.0" />
+              <point x="-28.4375" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0">
+              <point x="0.0" y="-15.5" />
+              <point x="704.0472350230416" y="233.0" />
+              <point x="680.5" y="233.0" />
+              <point x="680.5" y="142.0" />
+              <point x="347.8822004608297" y="142.0" />
+              <point x="28.4375" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0">
+              <point x="-13.14285714285711" y="-15.5" />
+              <point x="356.3571428571429" y="324.0" />
+              <point x="309.5" y="324.0" />
+              <point x="309.5" y="162.0" />
+              <point x="313.7572004608297" y="162.0" />
+              <point x="-5.6875" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-crypto-cipher:jar:1.4.0">
+              <point x="-26.285714285714334" y="-15.5" />
+              <point x="343.21428571428567" y="334.0" />
+              <point x="227.0" y="334.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.jerry.study:shiro-test:1.0-SNAPSHOT" target="org.slf4j:slf4j-log4j12:jar:1.7.25">
+              <point x="0.0" y="-15.5" />
+              <point x="860.125" y="415.0" />
+              <point x="896.4571428571429" y="415.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.jerry.study:shiro-test:1.0-SNAPSHOT" target="log4j:log4j:jar:1.2.17">
+              <point x="12.428571428571445" y="-15.5" />
+              <point x="872.5535714285714" y="425.0" />
+              <point x="958.4571428571429" y="425.0" />
+              <point x="958.4571428571429" y="344.0" />
+              <point x="952.8972350230415" y="344.0" />
+              <point x="15.25" y="15.5" />
+            </edge>
+            <edge source="junit:junit:jar:4.12" target="junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-event:jar:1.4.0">
+              <point x="26.799999999999955" y="-15.5" />
+              <point x="730.8472350230415" y="253.0" />
+              <point x="715.25" y="253.0" />
+              <point x="-24.25" y="15.5" />
+            </edge>
+            <edge source="com.jerry.study:shiro-test:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
+              <point x="24.85714285714289" y="-15.5" />
+              <point x="884.9821428571429" y="435.0" />
+              <point x="1046.1472350230415" y="435.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.jerry.study:shiro-test:1.0-SNAPSHOT" target="com.alibaba:druid:jar:1.1.10">
+              <point x="-37.28571428571428" y="-15.5" />
+              <point x="822.8392857142858" y="445.0" />
+              <point x="272.0" y="445.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-crypto-hash:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-crypto-hash:jar:1.4.0/org.apache.shiro:shiro-crypto-core:jar:1.4.0">
+              <point x="33.75" y="-15.5" />
+              <point x="101.25" y="253.0" />
+              <point x="112.625" y="253.0" />
+              <point x="-33.5" y="15.5" />
+            </edge>
+            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.25" target="org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-25.75" y="-15.5" />
+              <point x="870.7071428571429" y="344.0" />
+              <point x="867.6472350230415" y="344.0" />
+              <point x="19.5" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-event:jar:1.4.0">
+              <point x="39.428571428571445" y="-15.5" />
+              <point x="408.92857142857144" y="344.0" />
+              <point x="798.6472350230415" y="344.0" />
+              <point x="798.6472350230415" y="243.0" />
+              <point x="763.75" y="243.0" />
+              <point x="24.25" y="15.5" />
+            </edge>
+            <edge source="com.jerry.study:shiro-test:1.0-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-12.428571428571445" y="-15.5" />
+              <point x="847.6964285714286" y="425.0" />
+              <point x="828.6472350230415" y="425.0" />
+              <point x="-19.5" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-cache:jar:1.4.0">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0/commons-beanutils:commons-beanutils:jar:1.9.3">
+              <point x="53.60000000000002" y="-15.5" />
+              <point x="757.6472350230415" y="253.0" />
+              <point x="881.0" y="253.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-26.799999999999955" y="-15.5" />
+              <point x="677.2472350230416" y="243.0" />
+              <point x="631.0" y="243.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-crypto-hash:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0">
+              <point x="-33.75" y="-15.5" />
+              <point x="33.75" y="253.0" />
+              <point x="45.5" y="253.0" />
+              <point x="45.5" y="142.0" />
+              <point x="279.6322004608297" y="142.0" />
+              <point x="-39.8125" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0/commons-beanutils:commons-beanutils:jar:1.9.3" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0/commons-beanutils:commons-beanutils:jar:1.9.3/commons-collections:commons-collections:jar:3.2.2">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-cache:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0">
+              <point x="0.0" y="-15.5" />
+              <point x="369.5" y="162.0" />
+              <point x="325.1322004608297" y="162.0" />
+              <point x="5.6875" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-event:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0">
+              <point x="0.0" y="-15.5" />
+              <point x="739.5" y="132.0" />
+              <point x="359.2572004608297" y="132.0" />
+              <point x="39.8125" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-crypto-cipher:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-crypto-hash:jar:1.4.0/org.apache.shiro:shiro-crypto-core:jar:1.4.0">
+              <point x="-36.0" y="-15.5" />
+              <point x="191.0" y="253.0" />
+              <point x="179.625" y="253.0" />
+              <point x="33.5" y="15.5" />
+            </edge>
+            <edge source="com.jerry.study:shiro-test:1.0-SNAPSHOT" target="org.apache.shiro:shiro-core:jar:1.4.0">
+              <point x="-24.857142857142833" y="-15.5" />
+              <point x="835.2678571428571" y="435.0" />
+              <point x="369.5" y="435.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0/org.slf4j:slf4j-api:jar:1.7.21">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-crypto-hash:jar:1.4.0">
+              <point x="-39.428571428571445" y="-15.5" />
+              <point x="330.07142857142856" y="344.0" />
+              <point x="67.5" y="344.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-core:jar:1.4.0">
+              <point x="13.14285714285711" y="-15.5" />
+              <point x="382.6428571428571" y="324.0" />
+              <point x="472.25" y="324.0" />
+              <point x="-33.25" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-core:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0">
+              <point x="0.0" y="-15.5" />
+              <point x="505.5" y="152.0" />
+              <point x="336.5072004608297" y="152.0" />
+              <point x="17.0625" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-core:jar:1.4.0">
+              <point x="-53.60000000000002" y="-15.5" />
+              <point x="650.4472350230415" y="253.0" />
+              <point x="538.75" y="253.0" />
+              <point x="33.25" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0">
+              <point x="26.285714285714334" y="-15.5" />
+              <point x="395.78571428571433" y="334.0" />
+              <point x="704.0472350230416" y="334.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-crypto-cipher:jar:1.4.0" target="org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0">
+              <point x="36.0" y="-15.5" />
+              <point x="263.0" y="253.0" />
+              <point x="249.0" y="253.0" />
+              <point x="249.0" y="162.0" />
+              <point x="302.3822004608297" y="162.0" />
+              <point x="-17.0625" y="15.5" />
+            </edge>
+            <edge source="com.jerry.study:shiro-test:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:6.0.6">
+              <point x="37.28571428571428" y="-15.5" />
+              <point x="897.4107142857142" y="445.0" />
+              <point x="1172.6472350230415" y="445.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9141509433962273" x="243.0" y="254.0" />
+          <SelectedNodes>
+            <node>com.alibaba:druid:jar:1.1.10</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/59013b7b-9800-4d3f-af2e-9d51ffce00ad/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://59013b7b-9800-4d3f-af2e-9d51ffce00ad/schema/test/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/realm/jdbc/JdbcRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://59013b7b-9800-4d3f-af2e-9d51ffce00ad/schema/test/table/user_roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/test/JDBCRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://59013b7b-9800-4d3f-af2e-9d51ffce00ad/schema/test/table/roles_permissions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/resources/shiro.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/test/IniRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/MyRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/test/MyRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/realm/text/IniRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/com/shiro/test/TestShiro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-spring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-spring/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-spring/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>shiro-spring:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|shiro-spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.0.27</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
