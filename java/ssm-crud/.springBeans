@@ -9,6 +9,7 @@
 	<configs>
 		<config>src/main/resources/applicationContext.xml</config>
 		<config>src/main/webapp/WEB-INF/springDispatcherServlet-servlet.xml</config>
+		<config>src/main/resources/applicationContext-shiro.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>

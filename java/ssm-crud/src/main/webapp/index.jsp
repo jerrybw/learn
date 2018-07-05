@@ -2,6 +2,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib uri="http://shiro.apache.org/tags" prefix="shiro"%>
 <%
 	pageContext.setAttribute("APP_PATH",request.getContextPath());
 %>
@@ -194,7 +195,9 @@
 			<div class="col-md-3">
 				<!-- 			批量操作 -->
 				<button class="btn btn-primary" id="employeeAddBtn">新增</button>
-				<button class="btn btn-danger" id="empBatchDeleteBtn">删除</button>
+				<shiro:hasRole name="admin">
+					<button class="btn btn-danger" id="empBatchDeleteBtn">删除</button>
+				</shiro:hasRole>
 			</div>
 		</div>
 		<!-- 表格数据 -->
@@ -202,9 +205,11 @@
 			<table class="table table-hover" id="dataArea">
 				<thead>
 					<tr>
-						<th>
-							<input type="checkbox" class="checkAll" onclick="checkAll()">
-						</th>
+						<shiro:hasRole name="admin">
+							<th>
+								<input type="checkbox" class="checkAll" onclick="checkAll()">
+							</th>
+						</shiro:hasRole>
 						<th>#</th>
 						<th>name</th>
 						<th>gender</th>
@@ -225,7 +230,10 @@
 			</div>
 		</div>
 	</div>
+
 	<script type="text/javascript">
+		var isAdmin = false;
+		var isManager = false;
 		$(function(){
 			getDepts();
 			search(1);
@@ -243,5 +251,17 @@
 // 			$("#queryCondition").focusin(loseFocus);
 		})
 	</script>
+		<shiro:hasRole name="admin">
+		admin
+		<script>
+			isAdmin = true;
+		</script>
+	</shiro:hasRole>
+	<shiro:hasRole name="manager">
+		manager
+		<script>
+			isManager = true;
+		</script>
+	</shiro:hasRole>
 </body>
 </html>

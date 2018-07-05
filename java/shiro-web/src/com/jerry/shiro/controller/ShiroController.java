@@ -31,6 +31,6 @@ public class ShiroController {
 				System.out.println("登录失败！"+e.getMessage());
 			}
 		}
-		return "redirect:/list.jsp";
+		return "redirect:/index.jsp";
 	}
 }

@@ -106,22 +106,26 @@ function renderPageNavArea(data){
 function renderData(data){
 	var html = "";
 	$.each(data.extend.pageInfo.list,function(index,item){
-		html += '<tr>'+
-		'<td><input type="checkbox" class="checkOne" onclick="checkOne()"></td>'+
-		'<td>'+item.empId+'</td>'+
+		html += '<tr>';
+		if(isAdmin){
+			html += '<td><input type="checkbox" class="checkOne" onclick="checkOne()"></td>';
+		}
+		html += '<td>'+item.empId+'</td>'+
 		'<td>'+item.empName+'</td>'+
 		'<td>'+(item.gender=="M"?"男":(item.gender=="F"?"女":"未知"))+'</td>'+
 		'<td>'+(item.email==null?"":item.email)+'</td>'+
 		'<td>'+(item.department==null?"无":item.department.deptName)+'</td>'+
-		'<td>'+
-		'<button class="btn btn-primary btn-sm btn-update" empId="'+item.empId+'">'+
-		'<span class="glyphicon glyphicon-pencil" aria-hidden="true" ></span>'+
-		'修改'+
-		'</button>'+
-		'<button class="btn btn-danger btn-sm btn-delete" empId="'+item.empId+'">'+
-		'<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>'+
-		'删除'+
-		'</button>'+
+		'<td>';
+		if(isManager){
+			html += '<button class="btn btn-primary btn-sm btn-update" empId="'+item.empId+'">'+
+			'<span class="glyphicon glyphicon-pencil" aria-hidden="true" ></span>'+
+			'修改</button>';
+		}
+		if(isAdmin){
+			html += '<button class="btn btn-danger btn-sm btn-delete" empId="'+item.empId+'">'+
+			'<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>'+
+			'删除</button>';
+		}
 		'</td>'+
 		'</tr>';
 	})

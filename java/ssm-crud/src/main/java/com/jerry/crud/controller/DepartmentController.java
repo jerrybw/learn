@@ -20,12 +20,12 @@ import com.jerry.crud.service.DepartmentService;
 public class DepartmentController {
 	
 	@Autowired
-	DepartmentService departmentService;
+	private DepartmentService departmentServiceImpl;
 
 	@ResponseBody
 	@RequestMapping(value="depts",method=RequestMethod.GET)
 	public Msg getDepts() {
-		List<Department> departments = departmentService.getAll();
+		List<Department> departments = departmentServiceImpl.getAll();
 		Msg result = Msg.success().add("depts", departments);
 		return result;
 	}

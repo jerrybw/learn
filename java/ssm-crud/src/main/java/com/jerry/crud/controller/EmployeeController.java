@@ -7,6 +7,7 @@ import java.util.Map;
 
 import javax.validation.Valid;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
@@ -27,7 +28,9 @@ import com.jerry.crud.service.EmployeeService;
 public class EmployeeController {
 	
 	@Autowired
-	EmployeeService employeeService;
+	EmployeeService employeeServiceImpl;
+	
+	private Logger logger = Logger.getLogger(this.getClass());
 	/**
 	 * 分页展示员工
 	 * @param pn 请求第几页的数据 
@@ -43,11 +46,11 @@ public class EmployeeController {
 			@RequestParam(required=false,defaultValue="")String gender,
 			@RequestParam(required=false)String queryCondition,
 			@RequestParam(required=false)Integer dId) {
-
+		logger.info("获取所有员工");
 		//开始的页数，以及每页数据条数，调用此方法后的第一次查询操作会变成分页查询
 		PageHelper.startPage(pn,pdn);
 		//查询数据
-		List<Employee> emps= employeeService.getAll(gender,queryCondition,dId);
+		List<Employee> emps= employeeServiceImpl.getAll(gender,queryCondition,dId);
 		//将emps放入pageInfo中，并指定要显示的页数
 		PageInfo<Employee> pageInfo = new PageInfo<Employee>(emps,5);
 		//封装结果
@@ -77,7 +80,7 @@ public class EmployeeController {
 		if(employee.getGender() == null) {
 			employee.setGender("S");
 		}
-		employeeService.addEmp(employee);
+		employeeServiceImpl.addEmp(employee);
 		return Msg.success();
 	}
 
@@ -89,7 +92,7 @@ public class EmployeeController {
 	@ResponseBody
 	@RequestMapping(value="checkUserName",method=RequestMethod.POST)
 	public Object checkUserName(String empName) {
-		boolean isAble = employeeService.userNameCheck(empName);
+		boolean isAble = employeeServiceImpl.userNameCheck(empName);
 		if(isAble) {
 			return Msg.success();
 		}else {
@@ -105,7 +108,7 @@ public class EmployeeController {
 	@ResponseBody
 	@RequestMapping(value="emp/{id}",method=RequestMethod.GET)
 	public Object getEmp(@PathVariable("id")Integer id) {
-		Employee employee = employeeService.getEmp(id);
+		Employee employee = employeeServiceImpl.getEmp(id);
 		return Msg.success().add("emp", employee);
 	}
 	
@@ -120,7 +123,7 @@ public class EmployeeController {
 	public Object updateEmp(Employee employee) {
 		boolean success = false;
 		try {
-			success = employeeService.updateEmp(employee);
+			success = employeeServiceImpl.updateEmp(employee);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -133,7 +136,7 @@ public class EmployeeController {
 	public Object deleteEmp(@PathVariable("ids")String ids) {
 		boolean success = false;
 		try {
-			success = employeeService.deleteEmp(ids);
+			success = employeeServiceImpl.deleteEmp(ids);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
