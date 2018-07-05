@@ -7,7 +7,6 @@ import java.util.Map;
 
 import javax.validation.Valid;
 
-import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
@@ -30,7 +29,7 @@ public class EmployeeController {
 	@Autowired
 	EmployeeService employeeServiceImpl;
 	
-	private Logger logger = Logger.getLogger(this.getClass());
+//	private Logger logger = logfa
 	/**
 	 * 分页展示员工
 	 * @param pn 请求第几页的数据 
@@ -46,7 +45,7 @@ public class EmployeeController {
 			@RequestParam(required=false,defaultValue="")String gender,
 			@RequestParam(required=false)String queryCondition,
 			@RequestParam(required=false)Integer dId) {
-		logger.info("获取所有员工");
+//		logger.info("获取所有员工");
 		//开始的页数，以及每页数据条数，调用此方法后的第一次查询操作会变成分页查询
 		PageHelper.startPage(pn,pdn);
 		//查询数据

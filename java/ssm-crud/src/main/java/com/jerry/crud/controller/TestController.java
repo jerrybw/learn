@@ -5,7 +5,6 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,7 +18,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/test")
 public class TestController {
 	
-	private Logger logger = Logger.getLogger(this.getClass());
 	
 	@ResponseBody
 	@RequestMapping("/json")
@@ -27,8 +25,8 @@ public class TestController {
 		Map<String, Object> res = new HashMap<>();
 		Set<Entry<String,Object>> entrySet = params.entrySet();
 		for (Entry<String, Object> entry : entrySet) {
-			logger.info("key "+entry.getKey());
-			logger.info("value "+entry.getValue());
+			System.out.println("key "+entry.getKey());
+			System.out.println("value "+entry.getValue());
 		}
 		res.put("code", "200");
 		return res;
